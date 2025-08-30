@@ -1,6 +1,6 @@
 // Primitive data types : Number, string, bigInt, null, undefined, symbol, boolean.
 
-let num = 2;
+const num = 2;
 // const str = "Sagar";
 // const bigInt = 444444555556273893223739n;   
 // const nu = null;
