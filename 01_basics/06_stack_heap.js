@@ -12,7 +12,7 @@ let user1 = {
 }
 
 var user2 = user1;
-user2.age = 34;           // Change done in the original value. 
+user2.age = 34;         // Change done in the original value. 
  
 console.log(user2);    // Heap: Only change the original value not copy value as compare to stack. 
 console.log(user1);
