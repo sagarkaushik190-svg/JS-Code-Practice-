@@ -9,5 +9,5 @@ function sum(num1,num2){
 let result1 = sum(var1,var2);
 let result2 = sum(20,20);
 
-console.log(result1);
-console.log(result2);
+console.log("Result1 is: ", result1);
+console.log("Result2 is: ", result2);
