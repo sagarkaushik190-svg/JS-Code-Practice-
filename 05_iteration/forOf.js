@@ -17,7 +17,7 @@ map.set('US', 'United states of America');  // Set value in map.
 map.set('FR', 'France');  // Set value in map.
 
 // console.log(map);
-
+              // The for...of loop is used to iterate over iterable objects like arrays, strings, or sets.
 for (const [key, value] of map){
     console.log(key, ":", value);
 }
