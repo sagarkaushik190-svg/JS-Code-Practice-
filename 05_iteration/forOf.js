@@ -1,29 +1,35 @@
-// let n = "Sagar kaushik";
-
-// for (const nam of n) {
-//     console.log(nam);
+const arr = "Sagar Kaushik";
+for (const element of arr) {
+    console.log(element);
     
-// }
+}
+                              // The for...of loop is used to iterate over iterable objects like arrays, strings, or sets.
 
-let map = new Map();                           // DEfine map()
-        // A Map is a data structure that stores key-value pairs, where each key is unique. It is similar to an object but has some advantages:
+const mp = new Map();
+// console.log(typeof(mp));
+                           /*
+                            A Map is a data structure that stores key-value pairs, where each key is unique. It is similar to an object but has some advantages:
 
-// Inserts keys in the order they were added.
-// Allows keys of any type, not just strings and symbols.
-// Provides better performance when dealing with large datasets.
+                    Inserts keys in the order they were added.
+                      Allows keys of any type, not just strings and symbols.
+                    Provides better performance when dealing with large datasets.
+                     */
 
-map.set('IN', 'India');                      // Set value in map.
-map.set('US', 'United states of America');  // Set value in map.
-map.set('FR', 'France');  // Set value in map.
+mp.set('IN', 'India');
+mp.set('FR', 'France');
+for( const pr of mp){
+    console.log(pr);
+}
+console.log(mp);
 
-// console.log(map);
-              // The for...of loop is used to iterate over iterable objects like arrays, strings, or sets.
-for (const [key, value] of map){
-    console.log(key, ":", value);
+       /*  forOf loop with map. */
+for(const [key,value] of mp){
+    console.log(key, ">", value);    
 }
 
-let arr = ["Sagar", "Harshita"];
-for (const prar of arr){            // ForOf loop with array. 
-    console.log(prar);
+       /*  forOf loop with array.  */
+const arry = ["Sagar", "Harshita"];
+for(const element of arry){
+    console.log(element);
     
 }
