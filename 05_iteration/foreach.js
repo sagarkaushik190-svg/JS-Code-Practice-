@@ -19,4 +19,9 @@ let obj = [
 // obj.forEach(function(print){
 //     console.log(print.shortform);
 // });
-console.log(obj);
+// console.log(obj);
+
+obj.forEach(print => {
+    console.log(print);
+    
+});
