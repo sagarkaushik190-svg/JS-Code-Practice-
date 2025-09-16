@@ -14,11 +14,9 @@ let obj = [
 {
     language: "c++",
     shortform: "cpp"
-}
-];
+}];
 
-obj.forEach(function(print){
-    console.log(print.shortform);
-    
-
-});
+// obj.forEach(function(print){
+//     console.log(print.shortform);
+// });
+console.log(obj);
